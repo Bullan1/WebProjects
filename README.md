@@ -1,12 +1,43 @@
 # 🚀 Projects-Web
 Todos mis proyectos de web
 
-## 🌱 Agricultura - 
-Página web IoT con sistemas de riego, inicio de sesión, base de datos en MySQL.  
-Basado en Node.js - con HBS y framework Express.
+## 🌱 Proyecto Agricultura
 
-## 💐 Proyecto Mamá - 
-Proyecto Personal para el Día de la Madre, para mi mamá y mi abuela, utilizando HTML, CSS y JavaScript.
+Este proyecto consiste en una página web de IoT (Internet de las Cosas) para el control de sistemas de riego, con funcionalidades de inicio de sesión y una base de datos en MySQL. El objetivo es crear un sistema inteligente que permita gestionar el riego de plantas de forma eficiente. Las funcionalidades principales son las siguientes:
+
+### Funcionalidades:
+- **Inicio de sesión**: Los usuarios pueden iniciar sesión para acceder a sus configuraciones y datos.
+- **Control de riego**: El sistema permite activar y desactivar el riego en función de la humedad del suelo o de configuraciones personalizadas.
+- **Base de datos en MySQL**: Se utiliza MySQL para almacenar información sobre los usuarios y el estado del sistema de riego.
+- **Monitoreo de humedad**: El sistema monitorea la humedad del suelo en tiempo real, lo que permite tomar decisiones automáticas sobre cuándo activar el riego.
+- **Interfaz de usuario**: Una interfaz sencilla y fácil de usar para que los usuarios gestionen sus sistemas de riego.
+
+### Tecnologías utilizadas:
+- **Node.js**: Usado como el entorno de ejecución para el servidor backend.
+- **Express.js**: Framework para Node.js que gestiona las rutas y las solicitudes HTTP.
+- **MySQL**: Base de datos relacional utilizada para almacenar los datos de los usuarios y las configuraciones de riego.
+- **HBS (Handlebars)**: Motor de plantillas utilizado para la creación de las vistas dinámicas en el frontend.
+
+### Backend:
+El backend gestiona la lógica de riego, el monitoreo de la humedad y las interacciones con la base de datos, permitiendo a los usuarios configurar y controlar sus sistemas de riego de manera eficiente.
+
+## 💐 Proyecto Mamá
+
+Este es un proyecto personal que creé para el Día de la Madre, destinado a mi mamá y mi abuela. El proyecto consiste en una página web sencilla que utiliza HTML, CSS y JavaScript. El objetivo de la web es crear una experiencia especial para este día, con un diseño pensado para la ocasión.
+
+### Funcionalidades:
+- **Diseño personalizado**: La página está diseñada con un estilo único para el Día de la Madre.
+- **Interactividad**: Se incluyen interacciones simples con JavaScript, como efectos visuales y botones.
+- **Mensajes especiales**: La página contiene mensajes personalizados para mi mamá y mi abuela.
+
+### Tecnologías utilizadas:
+- **HTML**: Utilizado para la estructura de la página.
+- **CSS**: Se utiliza para estilizar y dar un diseño atractivo a la página.
+- **JavaScript**: Se utiliza para añadir interactividad y dinamismo a la página.
+
+### Descripción:
+Este proyecto fue desarrollado como un regalo para mis seres queridos, con el objetivo de mostrarles lo especiales que son. Fue una forma de aplicar mis conocimientos en tecnologías web para un propósito personal.
+
 
 ## 🏦 Proyecto Banco
 
