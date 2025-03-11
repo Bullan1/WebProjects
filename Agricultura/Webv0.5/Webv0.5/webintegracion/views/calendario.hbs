@@ -1,0 +1,55 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario de Riego</title>
+    <link rel="stylesheet" href="/stylesheets/calendario.css">
+
+    <!-- Flatpickr CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet">
+
+    <!-- Flatpickr JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+
+{{#if mensaje}}
+    <br><br><br>
+  <div class="alert alert-success">
+    {{mensaje}}
+  </div>
+{{/if}}
+
+<body>
+    <main>
+        <br><br>
+
+        <center><div id="calendario-actual"></div></center>
+        <br><br>    
+
+        <h2 id="dia-actual">Día Actual</h2> 
+
+        <button id="btn-programar">Programar Riego</button>
+        
+        <div id="programar-riego" style="display: none;">
+            <h3>Programar Riego</h3>
+            <form id="form-riego" method="POST" action="/users/guardar-riego">
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required>
+
+                <div class="form-buttons">
+                    <button type="submit" class="guardar">Guardar</button>
+                    <button type="button" class="cancelar" id="btn-cancelar">Cancelar</button>
+                </div>
+            </form>
+        </div>
+
+        <div>
+            
+        </div>
+
+    </main>
+
+    <script src="/javascripts/calendario.js"></script>
+</body>

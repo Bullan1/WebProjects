@@ -1,0 +1,19 @@
+<form method="post" action="/eliminar" class="form-register">
+    <center>
+        <h4>¿Estás seguro de que deseas eliminar tu cuenta?</h4>
+    </center>
+
+    <p><strong>Nombre:</strong> {{user.name}}</p>
+    <p><strong>Email:</strong> {{user.email}}</p>
+
+    <input class="botons" type="submit" value="Eliminar Cuenta">
+</form>
+<br><br><br>
+<div class="end">
+    <CEnter>
+        <a href="/panel" class="button">
+            <img src="/images/regreso.png" alt="VOLVER AL PANEL" width="50" height="50">
+            <h5>VOLVER AL PANEL</h5>
+        </a>
+    </CEnter>
+</div>

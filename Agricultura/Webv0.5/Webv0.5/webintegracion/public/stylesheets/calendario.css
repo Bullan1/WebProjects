@@ -1,0 +1,135 @@
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+#dia-actual {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 20%;
+    padding: 1.5rem;
+}
+
+#btn-programar {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #ff5722;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-programar:hover {
+    background: #e64a19;
+}
+
+#programar-riego {
+    margin-top: 20px;
+    background: #444;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+#programar-riego h3 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+#programar-riego label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#programar-riego input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.guardar {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancelar {
+    background: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.guardar:hover {
+    background: #45a049;
+}
+
+.cancelar:hover {
+    background: #ff0000;
+}
+
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    margin-top: 80px;
+    /* Deja espacio debajo del navbar fijo */
+}
+
+#calendario-actual {
+    margin-bottom: 20px;  /* Espacio debajo del calendario */
+    max-width: 100%;      /* Asegúrate de que el calendario se ajuste al ancho disponible */
+    text-align: center;   /* Centra el calendario */
+}
+
+/* Estilos para el historial de riegos */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4caf50;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+

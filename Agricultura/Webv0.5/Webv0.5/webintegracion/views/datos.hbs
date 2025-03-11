@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datos del ESP8266</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+  <h1>Datos en Tiempo Real</h1>
+  {{#if datos.temperatura}}
+    <p>Temperatura: {{datos.temperatura}} °C</p>
+    <p>Humedad: {{datos.humedad}} %</p>
+  {{else}}
+    <p>No se han recibido datos aún.</p>
+  {{/if}}
+  <a href="/">Volver a la página principal</a>
+</body>
+</html>

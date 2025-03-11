@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/stylesheets/calendario.css">
+</head>
+<body>
+    
+    <main>
+        <h2>Historial de Riegos</h2>
+
+        {{#if riegos}}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Temperatura (°C)</th>
+                        <th>Humedad (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each riegos}}
+                    <tr>
+                        <td>{{fecha}}</td>
+                        <td>{{hora}}</td>
+                        <td>{{temperatura}}</td>
+                        <td>{{humedad}}</td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        {{else}}
+            <p>No hay riegos registrados.</p>
+        {{/if}}
+    </main>
+
+    <script src="/javascripts/calendario.js"></script>
+</body>
+</html>

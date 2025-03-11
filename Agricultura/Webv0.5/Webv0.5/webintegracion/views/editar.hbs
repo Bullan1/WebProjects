@@ -1,0 +1,19 @@
+<form method="post" action="/editar" class="form-register">
+    <center>
+        <h4>MODIFICAR USUARIO</h4>
+    </center>
+
+    <input class="controls" type="text" name="name" id="name" value="{{user.name}}" placeholder="Nombre" required>
+    <input class="controls" type="email" name="email" id="email" value="{{user.email}}" placeholder="Email" required>
+    <input class="controls" type="password" name="pass" id="pass" value="{{user.pass}}" placeholder="Contraseña" required>
+
+    <input class="botons" type="submit" value="MODIFICAR USUARIO">
+</form>
+<div class="end">
+    <CEnter>
+        <a href="/panel" class="button">
+            <img src="/images/regreso.png" alt="VOLVER AL PANEL" width="50" height="50">
+            <h5>VOLVER AL PANEL</h5>
+        </a>
+    </CEnter>
+</div>
