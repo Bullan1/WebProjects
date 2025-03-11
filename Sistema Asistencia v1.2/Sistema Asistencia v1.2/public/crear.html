@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Usuario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="section">
+            <h2>Crear Usuario</h2>
+            <form id="create-user-form">
+                <label for="create-email">Email:</label>
+                <input type="email" id="create-email" name="email" required>
+                <label for="create-password">Contraseña:</label>
+                <input type="password" id="create-password" name="password" required>
+                <label for="create-role">Rol:</label>
+                <select id="create-role" name="role" required>
+                    <option value="admin">Administrador</option>
+                    <option value="employee">Empleado</option>
+                </select>
+                <button type="submit">Crear Usuario</button>
+            </form>
+        </div>
+        <div class="logout-container"></div>
+            <a href="./menu.html">Volver al Menu</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+
+</body>
+
+</html>

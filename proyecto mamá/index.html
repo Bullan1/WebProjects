@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz dia</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .heart-button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff0066;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+
+        .heart-button:hover {
+            background-color: #d9004c;
+        }
+
+        .heart-button:focus {
+            outline: none;
+        }
+
+        .heart-icon {
+            margin-right: 5px;
+        }
+
+        
+        h1 {
+            position: absolute;
+            top: 0;
+            left: 35%;
+            margin: 0 0 0 -50px;
+            padding-top: 200px;
+            /* adjust the margin to center the h1 */
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Como no supe que hacer para su dia, les programe una pagina</h1>
+    </div>
+
+
+    <div class="button-container">
+        <button class="heart-button" onclick="redireccionarMama()"><span class="heart-icon">&#10084;</span> Feliz Día Mamá</button>
+    </div>
+    <div class="button-container">
+        <button class="heart-button" onclick="redireccionarLela()"><span class="heart-icon">&#10084;</span> Feliz Día Lela</button>
+    </div>
+
+    <script>
+        function redireccionarMama() {
+            window.location.href = 'imagenes.html';
+        }
+
+        function redireccionarLela() {
+            window.location.href = 'imagenes_lela.html';
+        }
+    </script>
+</body>
+
+</html>
