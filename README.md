@@ -1,14 +1,15 @@
 # Projects-Web
 Todos mis proyectos de web 
 
-Agricultura - Pagina web IoT con sistemas de riegos, inicio de sesion, base de datos en MySQL. 
+##Agricultura - Pagina web IoT con sistemas de riegos, inicio de sesion, base de datos en MySQL. 
 Basado en Node.js - con HBS y framewerok Express.
 
-Proyecto Mamá - Proyecto Personal para el dia de la madre, para mi mamá y mi abuela, utilizando html,css y javascript.
+##Proyecto Mamá - Proyecto Personal para el dia de la madre, para mi mamá y mi abuela, utilizando html,css y javascript.
 
-Protecto Banco - Proyecto de un banco donde se puede realizar giros, crear usuarios, enrolar usuarios, crear nuevos tipos de cuentas(Corriente, ahorro , etc), realizar transferencias, eliminar usuarios, editar usuarios, buscar usuarios por rut, consultar saldos, listado de clientes, listado de consultas, login, logout, panel de control de usuarios y formulario de contactos, todo el backend funcionando. Creado con node.js y framework express.
+##Protecto Banco - Proyecto de un banco donde se puede realizar giros, crear usuarios, enrolar usuarios, crear nuevos tipos de cuentas(Corriente, ahorro , etc), realizar transferencias, eliminar usuarios, editar usuarios, buscar usuarios por rut, consultar saldos, listado de clientes, listado de consultas, login, logout, panel de control de usuarios y formulario de contactos, todo el backend funcionando. Creado con node.js y framework express.
 
-Proyecto Asistencias - Proyecto simple con login funcional que calcula las horas de un trabajador, toma el ingreso del trabajado en un base de datos relacional, toma el horario de salida, CRUD de usuarios, login funcional, registro funcional:
+##Proyecto Asistencias
+Proyecto simple con login funcional que calcula las horas de un trabajador, toma el ingreso del trabajado en un base de datos relacional, toma el horario de salida, CRUD de usuarios, login funcional, registro funcional:
 
 Informacion del proyecto:
 Para empezar, guiándonos por los requerimientos decidimos crear una aplicación web para poder registrar la asistencia de los empleados. Donde primero será una ventana de login para que pueda ingresar el administrador o el empleado, y cada uno tenga acceso a una página especializada para el rol correspondiente.
