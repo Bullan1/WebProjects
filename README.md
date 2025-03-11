@@ -8,8 +8,34 @@ Basado en Node.js - con HBS y framework Express.
 ## 💐 Proyecto Mamá - 
 Proyecto Personal para el Día de la Madre, para mi mamá y mi abuela, utilizando HTML, CSS y JavaScript.
 
-## 🏦 Proyecto Banco -
-Proyecto de un banco donde se puede realizar giros, crear usuarios, enrolar usuarios, crear nuevos tipos de cuentas (Corriente, Ahorro, etc.), realizar transferencias, eliminar usuarios, editar usuarios, buscar usuarios por RUT, consultar saldos, listado de clientes, listado de consultas, login, logout, panel de control de usuarios y formulario de contactos, todo el backend funcionando. Creado con Node.js y framework Express.
+## 🏦 Proyecto Banco
+
+Este es un proyecto de un banco en línea donde los usuarios pueden realizar una variedad de operaciones bancarias. El sistema está compuesto por un backend totalmente funcional y permite realizar las siguientes operaciones:
+
+### Funcionalidades:
+- **Giros**: Los usuarios pueden realizar giros desde sus cuentas.
+- **Creación de usuarios**: Los administradores pueden crear nuevos usuarios en el sistema.
+- **Enrolar usuarios**: Los usuarios pueden registrarse y ser enrolados para acceder a su cuenta bancaria.
+- **Tipos de cuentas**: Se pueden crear diferentes tipos de cuentas, como cuentas corrientes, de ahorro, entre otras.
+- **Transferencias**: Los usuarios pueden transferir dinero entre cuentas.
+- **Eliminación de usuarios**: Los administradores pueden eliminar usuarios del sistema.
+- **Edición de usuarios**: Los administradores pueden modificar la información de los usuarios.
+- **Búsqueda de usuarios por RUT**: Los administradores pueden buscar usuarios utilizando su RUT.
+- **Consulta de saldos**: Los usuarios pueden consultar el saldo de sus cuentas.
+- **Listado de clientes**: Los administradores pueden ver un listado de todos los clientes.
+- **Listado de consultas**: Los administradores pueden consultar las operaciones realizadas por los usuarios.
+- **Login y Logout**: Los usuarios pueden acceder y salir del sistema de manera segura.
+- **Panel de control de usuarios**: Los administradores tienen acceso a un panel donde pueden gestionar la información y operaciones de los usuarios.
+- **Formulario de contacto**: Los usuarios pueden enviar consultas o mensajes a través de un formulario de contacto.
+
+### Tecnologías utilizadas:
+Este proyecto fue creado utilizando las siguientes tecnologías:
+- **Node.js**: Se utiliza como el entorno de ejecución para el servidor backend.
+- **Express.js**: Framework para Node.js utilizado para crear las rutas y manejar las solicitudes HTTP.
+- **MySQL**: Base de datos relacional para almacenar información de usuarios, cuentas, transacciones, etc.
+
+### Backend:
+El backend es completamente funcional y maneja todas las operaciones mencionadas, utilizando un modelo de datos estructurado para manejar usuarios, cuentas y transacciones.
 
 ## 🧑‍💼 Proyecto Asistencias
 Proyecto simple con login funcional que calcula las horas de un trabajador, toma el ingreso del trabajador en una base de datos relacional, toma el horario de salida, CRUD de usuarios, login funcional, registro funcional:
