@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{title}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="nav-area">
+        <li><a href="/">HOME</a></li>
+        <li><a href="/clientes/Clientes">CLIENTES</a></li>
+        {{#if auth}}
+          <li><a href="/cuentas/cuentas">CUENTAS</a></li>
+          <li><a href="/PANEL">PANEL DE USUARIO</a></li>
+          <li><a href="/logout">CERRAR SESION</a></li>
+        {{else}}
+        |<li><a href="/login">LOGIN</a></li>|
+        {{/if}}
+        <li><a href="/contacto/contacto">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  {{{body}}}
+</body>
+
+</html>

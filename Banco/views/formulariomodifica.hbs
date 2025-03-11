@@ -1,0 +1,12 @@
+{{#each clientes}}
+  <form method="post" action="/clientes/confirmarmodifica" class="form-register">
+    <h4>Modificar Cliente</h4>
+    <input class="controls" type="text" name="run" id="run" placeholder="Ingrese nuevo Run" value="{{run}}">
+    <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese nuevo Nombre" value="{{nombre}}">
+    <input class="controls" type="text" name="direccion" id="direccion" placeholder="Ingrese nueva Dirección" value="{{direccion}}">
+    <input class="controls" type="email" name="email" id="email" placeholder="Ingrese nuevo Correo" value="{{email}}">
+    <input class="controls" type="text" name="telefono" id="telefono" placeholder="Ingrese nuevo Teléfono" value="{{telefono}}">
+    <input type="hidden" name="id_cliente" value="{{id_cliente}}">
+    <input class="botons" type="submit" value="Modificar">
+  </form>
+{{/each}}

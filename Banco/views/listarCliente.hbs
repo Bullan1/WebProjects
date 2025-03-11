@@ -1,0 +1,11 @@
+<table border="1">
+  <tr>
+    <td>Rut</td><td>Nombre</td><td>Direccion</td><td>Email</td><td>Telefono</td>
+  </tr>
+{{#each clientes}}
+  <tr>
+     <td>{{run}} </td> <td>{{nombre}}</td> <td>{{direccion}}</td><td>{{email}}</td><td>{{telefono}}</td>
+  </tr>
+{{/each}}
+</table>
+<a href="/clientes/Clientes">Retornar</a>

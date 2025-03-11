@@ -1,0 +1,22 @@
+{{#if auth}}
+<div class="container">
+    <a href="/clientes/registrar" class="icon-link">
+        <img src="/images/agregar1.png" class="icon-image">
+        <span>Registro Clientes</span>
+    </a>
+    <a href="/clientes/listar" class="icon-link">
+        <img src="/images/listar.png" class="icon-image">
+        <span>Listar Clientes</span>
+    </a>
+    <a href="/clientes/consulta" class="icon-link">
+        <img src="/images/buscar.png" class="icon-image">
+        <span>Consultar por Clientes</span>
+    </a>
+    <a href="/clientes/modificacion" class="icon-link">
+        <img src="/images/editar.png" class="icon-image">
+        <span>Modificar Clientes</span>
+    </a>
+</div>
+{{else}}
+<p>Debe iniciar sesión para acceder a esta sección.</p>
+{{/if}}

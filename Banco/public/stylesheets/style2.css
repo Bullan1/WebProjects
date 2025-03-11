@@ -1,0 +1,81 @@
+body {
+    background-image: url('../images/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    /* Centra el contenido del contenedor */
+    margin-top: 20px;
+    /* Espacio superior para separar del borde superior */
+}
+
+.cliente-info {
+    margin-bottom: 20px;
+    /* Espacio inferior entre cada sección de información del cliente */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    text-align: center;
+    /* Centra el contenido del contenedor */
+    margin-top: 20px;
+    /* Espacio superior para separar del borde superior */
+}
+
+/* Estilos para la tabla */
+table {
+    width: 80%;
+    /* Ancho de la tabla */
+    margin: 0 auto;
+    /* Centra la tabla horizontalmente */
+    border-collapse: collapse;
+    /* Fusiona los bordes de la tabla */
+}
+
+th,
+td {
+    padding: 10px;
+    /* Espaciado interno de las celdas */
+    border: 1px solid #ccc;
+    /* Borde de las celdas */
+    text-align: left;
+    /* Alineación del texto a la izquierda */
+}
+
+/* Estilos para los enlaces */
+a {
+    display: inline-block;
+    /* Convierte el enlace en un bloque en línea */
+    margin-top: 20px;
+    /* Espacio superior para separar del contenido anterior */
+    text-decoration: none;
+    /* Elimina el subrayado del enlace */
+    color: blue;
+    /* Color del texto del enlace */
+}
+
+a:hover {
+    color: darkblue;
+    /* Cambia el color del texto al pasar el mouse sobre el enlace */
+}
+
+/* Estilos para el título de la página */
+.page-title {
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    padding: 20px 0;
+    /* Espaciado interno superior e inferior reducido */
+    color: white;
+    /* Color del texto del título */
+    margin-top: 20px;
+    /* Espacio superior reducido */
+    margin-bottom: 120px;
+    /* Espacio inferior para separar del contenido siguiente */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+}

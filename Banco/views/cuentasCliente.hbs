@@ -1,0 +1,37 @@
+<head>
+    <link rel="stylesheet" href="/stylesheets/style2.css">
+</head>
+
+<div class="container">
+    <center>
+        <h1 class="page-title">Cuentas del Cliente</h1>
+        {{#if cuentas.length}}
+        <table>
+            <thead>
+                <tr>
+                    <th>ID Cuenta</th>
+                    <th>Número</th>
+                    <th>Fecha de Apertura</th>
+                    <th>Tipo de Cuenta</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each cuentas}}
+                <tr>
+                    <td>{{id_cuenta}}</td>
+                    <td>{{numero}}</td>
+                    <td>{{fecha_apertura}}</td>
+                    <td>{{tipo_cuenta}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+        {{else}}
+        <p>No hay cuentas asociadas a este cliente.</p>
+        {{/if}}
+
+        <br>
+        <br>
+        <a href="/cuentas/cuentas">Retornar</a>
+    </center>
+</div>
